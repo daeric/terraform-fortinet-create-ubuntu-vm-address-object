@@ -13,7 +13,7 @@ provider "fortios" {
   insecure = "true"
 }
 
-resource "fortios_firewall_address" "address" {
+resource "fortios_firewall_address" "myvmaddress" {
   name       = var.vm_name
   subnet     = var.ip_add
   type       = "ipmask"
