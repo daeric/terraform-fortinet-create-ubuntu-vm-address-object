@@ -7,16 +7,6 @@ terraform {
   }
 }
 
-terraform {
-  cloud {
-    organization = "daeric"
-
-    workspaces {
-      name = "terraform-vmware-ubuntu"
-    }
-  }
-}
-
 data "terraform_remote_state" "ubuntu" {
   backend = "remote"
 
