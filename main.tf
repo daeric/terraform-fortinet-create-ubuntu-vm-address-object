@@ -12,7 +12,7 @@ terraform {
     organization = "daeric"
 
     workspaces {
-      name = "test"
+      name = "terraform-vmware-ubuntu"
     }
   }
 }
